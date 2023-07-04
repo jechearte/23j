@@ -65,6 +65,7 @@ def generar_respuesta(question,partido):
     return qa({"question":question, "partido": partido})
 
 #Streamlit
+st.set_page_config(page_title="23j")
 st.image("https://productomania.io/wp-content/uploads/2023/07/elecciones_generales.png", caption=None)
 st.title("Elecciones generales 23J")
 partido = st.selectbox("Elige un partido político", ("Partido Popular (PP)", "Partido Socialista Obrero Español (PSOE)"))#, "VOX (VOX)", "SUMAR (SUMAR)"))
