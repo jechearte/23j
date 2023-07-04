@@ -17,8 +17,8 @@ from dotenv import load_dotenv
 partidos = {
     "Partido Popular (PP)": "PP",
     "Partido Socialista Obrero Español (PSOE)": "PSOE",
-    "VOX (VOX)": "VOX",
-    "SUMAR (SUMAR)": "SUMAR"
+    #"VOX (VOX)": "VOX",
+    #"SUMAR (SUMAR)": "SUMAR"
 }
 
 def generar_respuesta(question,partido):
@@ -67,7 +67,7 @@ def generar_respuesta(question,partido):
 #Streamlit
 st.image("https://productomania.io/wp-content/uploads/2023/07/elecciones_generales.png", caption=None)
 st.title("Elecciones generales 23J")
-partido = st.selectbox("Elige un partido político", ("Partido Popular (PP)", "Partido Socialista Obrero Español (PSOE)", "VOX (VOX)", "SUMAR (SUMAR)"))
+partido = st.selectbox("Elige un partido político", ("Partido Popular (PP)", "Partido Socialista Obrero Español (PSOE)"))#, "VOX (VOX)", "SUMAR (SUMAR)"))
 question = st.text_input("Introduce aquí tu pregunta", placeholder="Ej: ¿Qué medidas proponen para reducir el deficit público?")
 if st.button("Preguntar", use_container_width=True, type="primary"):
     with st.spinner(text="Buscando información..."):
