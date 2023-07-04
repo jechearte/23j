@@ -26,9 +26,9 @@ def generar_respuesta(question,partido):
     #load api keys
     load_dotenv()
 
-    openai_api_key = os.getenv('OPENAI_API_KEY')
-    qdrant_api_key = os.getenv('QDRANT_API_KEY')
-    qdrant_url = os.getenv('QDRANT_URL')
+    openai_api_key = st.secrets["OPENAI_API_KEY"]
+    qdrant_api_key = st.secrets["QDRANT_API_KEY"]
+    qdrant_url = st.secrets["QDRANT_URL"]
 
     collection_name = partidos[partido]
     embeddings_model = OpenAIEmbeddings(openai_api_key=openai_api_key)
