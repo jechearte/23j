@@ -72,7 +72,7 @@ st.caption("Selecciona un partido político y pregunta a la IA qué medidas prop
 st.caption("[Desarrollado por [Juan Echeverria](https://www.linkedin.com/in/juan-echeverria-arteaga/)]")
 partido = st.selectbox("Elige un partido político", ("Partido Popular (PP)", "Partido Socialista Obrero Español (PSOE)"))#, "VOX (VOX)", "SUMAR (SUMAR)"))
 question = st.text_input("Introduce aquí tu pregunta", placeholder="Ej: ¿Qué medidas proponen para reducir el deficit público?")
-if st.button("Preguntar", use_container_width=True, type="primary"):
+if st.button("Preguntar a la IA", use_container_width=True, type="primary"):
     with st.spinner(text="Buscando información..."):
         respuesta = generar_respuesta(question, partido)
         st.success("Aquí tienes la respuesta a tu pregunta")
