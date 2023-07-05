@@ -66,8 +66,10 @@ def generar_respuesta(question,partido):
 
 #Streamlit
 st.set_page_config(page_title="23j")
-st.image("https://productomania.io/wp-content/uploads/2023/07/elecciones_generales.png", caption=None)
-st.title("Elecciones generales 23J")
+st.image("https://productomania.io/wp-content/uploads/2023/07/Group-1-2.png", caption=None)
+st.header("Los programas electorales al desnudo")
+st.caption("Selecciona un partido político y pregunta a la IA qué medidas propone en su programa para la cuestión que más te interese. Te dará una respuesta objetiva basada en el contenido del programa político del partido.")
+st.caption("[Desarrollado por [Juan Echeverria](https://www.linkedin.com/in/juan-echeverria-arteaga/)]")
 partido = st.selectbox("Elige un partido político", ("Partido Popular (PP)", "Partido Socialista Obrero Español (PSOE)"))#, "VOX (VOX)", "SUMAR (SUMAR)"))
 question = st.text_input("Introduce aquí tu pregunta", placeholder="Ej: ¿Qué medidas proponen para reducir el deficit público?")
 if st.button("Preguntar", use_container_width=True, type="primary"):
