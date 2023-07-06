@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 
 partidos = {
     "Partido Popular (PP)": "PP",
-    #"Partido Socialista Obrero Español (PSOE)": "PSOE",
+    "Partido Socialista Obrero Español (PSOE)": "PSOE",
     #"VOX (VOX)": "VOX",
     "SUMAR (SUMAR)": "SUMAR",
     "Partido animalista con el medio ambiente (PACMA)":"PACMA"
