@@ -74,7 +74,7 @@ st.caption("Selecciona un partido político y pregunta a la IA qué medidas prop
 st.caption("[Desarrollado por [Juan Echeverria](https://www.linkedin.com/in/juan-echeverria-arteaga/)]")
 partido = st.selectbox("Elige un partido político", (
     "Escaños en blanco para dejar escaños vacíos (ESCAÑOS EN BLANCO)",
-    "Partido animalista con el medio ambiente (PACMA),
+    "Partido animalista con el medio ambiente (PACMA)",
     "Partido Popular (PP)", 
     "SUMAR (SUMAR)"
 ))
