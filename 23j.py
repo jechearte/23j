@@ -20,7 +20,7 @@ partidos = {
     #"VOX (VOX)": "VOX",
     "SUMAR (SUMAR)": "SUMAR",
     "Partido animalista con el medio ambiente (PACMA)":"PACMA",
-    "Escaños en blanco para dejar escaños vacíos (ESCAÑOS EN BLANCO)": "ESCAÑOS EN BLANCO"
+    "Escaños en blanco para dejar escaños vacíos (ESCAÑOS EN BLANCO)": "ESCANOS EN BLANCO"
 }
 
 def generar_respuesta(question,partido):
@@ -94,7 +94,7 @@ if st.button("Preguntar a la IA", use_container_width=True, type="primary"):
         st.write("Respuesta generada a partir del contenido de las páginas "+pages_sorted_str+" del programa electoral de "+partido+".")
 else:
     st.write("")
-
+st.caption("Si echas en falta algún partido en el desplegable escríbeme a [@juanecheverrria](https://twitter.com/JuanEcheverrria)")
 
 
 
