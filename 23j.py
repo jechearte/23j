@@ -17,10 +17,11 @@ from dotenv import load_dotenv
 partidos = {
     "Partido Popular (PP)": "PP",
     "Partido Socialista Obrero Español (PSOE)": "PSOE",
-    #"VOX (VOX)": "VOX",
+    "VOX (VOX)": "VOX",
     "SUMAR (SUMAR)": "SUMAR",
     "Partido animalista con el medio ambiente (PACMA)":"PACMA",
-    "Escaños en blanco (ESCAÑOS EN BLANCO)": "ESCANOS EN BLANCO"
+    "Escaños en blanco (ESCAÑOS EN BLANCO)": "ESCANOS EN BLANCO",
+    "Frente Obrero (FO)": "FO"
 }
 
 def generar_respuesta(question,partido):
@@ -74,9 +75,11 @@ st.caption("Selecciona un partido político y pregunta a la IA qué medidas prop
 st.caption("[Desarrollado por [Juan Echeverria](https://www.linkedin.com/in/juan-echeverria-arteaga/)]")
 partido = st.selectbox("Elige un partido político", (
     "Escaños en blanco (ESCAÑOS EN BLANCO)",
+    "Frente Obrero (FO)",
     "Partido animalista con el medio ambiente (PACMA)",
     "Partido Popular (PP)", 
-    "SUMAR (SUMAR)"
+    "SUMAR (SUMAR)",
+    "VOX (VOX)"
 ))
 question = st.text_input("Introduce aquí tu pregunta", placeholder="Ej: ¿Qué medidas proponen para reducir el deficit público?")
 if st.button("Preguntar a la IA", use_container_width=True, type="primary"):
