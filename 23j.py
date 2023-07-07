@@ -73,7 +73,7 @@ st.image("https://productomania.io/wp-content/uploads/2023/07/Group-1-2.png", ca
 st.header("Los programas electorales al desnudo")
 st.caption("Selecciona un partido político y pregunta a la IA qué medidas propone en su programa para la cuestión que más te interese. Te dará una respuesta objetiva basada en el contenido del programa político del partido.")
 st.caption("[Desarrollado por [Juan Echeverria](https://www.linkedin.com/in/juan-echeverria-arteaga/)]")
-partido = st.selectbox("Elige un partido político", (
+partido = st.selectbox("Elige un partido político ", (
     "Escaños en blanco (ESCAÑOS EN BLANCO)",
     "Frente Obrero (FO)",
     "Partido animalista con el medio ambiente (PACMA)",
