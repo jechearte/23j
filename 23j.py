@@ -20,7 +20,7 @@ partidos = {
     #"VOX (VOX)": "VOX",
     "SUMAR (SUMAR)": "SUMAR",
     "Partido animalista con el medio ambiente (PACMA)":"PACMA",
-    "Escaños en blanco para dejar escaños vacíos (ESCAÑOS EN BLANCO)": "ESCANOS EN BLANCO"
+    "Escaños en blanco (ESCAÑOS EN BLANCO)": "ESCANOS EN BLANCO"
 }
 
 def generar_respuesta(question,partido):
@@ -73,7 +73,7 @@ st.header("Los programas electorales al desnudo")
 st.caption("Selecciona un partido político y pregunta a la IA qué medidas propone en su programa para la cuestión que más te interese. Te dará una respuesta objetiva basada en el contenido del programa político del partido.")
 st.caption("[Desarrollado por [Juan Echeverria](https://www.linkedin.com/in/juan-echeverria-arteaga/)]")
 partido = st.selectbox("Elige un partido político", (
-    "Escaños en blanco para dejar escaños vacíos (ESCAÑOS EN BLANCO)",
+    "Escaños en blanco (ESCAÑOS EN BLANCO)",
     "Partido animalista con el medio ambiente (PACMA)",
     "Partido Popular (PP)", 
     "SUMAR (SUMAR)"
