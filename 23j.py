@@ -19,7 +19,7 @@ partidos = {
     "Partido Socialista Obrero Español (PSOE)": "PSOE-2",
     "VOX (VOX)": "VOX-2",
     "SUMAR (SUMAR)": "SUMAR",
-    "Partido animalista con el med.amb. (PACMA)":"PACMA",
+    "Partido animalista con el medioamb. (PACMA)":"PACMA",
     "Escaños en blanco (ESCAÑOS EN BLANCO)": "ESCANOS EN BLANCO",
     "Frente Obrero (FO)": "FO"
 }
