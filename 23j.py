@@ -76,7 +76,7 @@ st.caption("[Desarrollado por [Juan Echeverria](https://www.linkedin.com/in/juan
 partido = st.selectbox("Elige un partido político ", (
     "Escaños en blanco (ESCAÑOS EN BLANCO)",
     "Frente Obrero (FO)",
-    "Partido animalista con el medio ambiente (PACMA)",
+    "Partido animalista con el medioamb. (PACMA)",
     "Partido Popular (PP)", 
     "Partido Socialista Obrero Español (PSOE)",
     "SUMAR (SUMAR)",
