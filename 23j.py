@@ -21,7 +21,8 @@ partidos = {
     "SUMAR (SUMAR)": "SUMAR",
     "Partido animalista con el medioamb. (PACMA)":"PACMA",
     "Escaños en blanco (ESCAÑOS EN BLANCO)": "ESCANOS EN BLANCO",
-    "Frente Obrero (FO)": "FO"
+    "Frente Obrero (FO)": "FO",
+    "Por un mundo más justo (PUM+J)": "PUM+J"
 }
 
 def generar_respuesta(question,partido):
@@ -79,6 +80,7 @@ partido = st.selectbox("Elige un partido político ", (
     "Partido animalista con el medioamb. (PACMA)",
     "Partido Popular (PP)", 
     "Partido Socialista Obrero Español (PSOE)",
+    "Por un mundo más justo (PUM+J)",
     "SUMAR (SUMAR)",
     "VOX (VOX)"
 ))
