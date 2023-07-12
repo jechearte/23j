@@ -22,7 +22,8 @@ partidos = {
     "Partido animalista con el medioamb. (PACMA)":"PACMA",
     "Escaños en blanco (ESCAÑOS EN BLANCO)": "ESCANOS EN BLANCO",
     "Frente Obrero (FO)": "FO",
-    "Por un mundo más justo (PUM+J)": "PUM+J"
+    "Por un mundo más justo (PUM+J)": "PUM+J",
+    "Partido comunista de los trabajadores (PCTE)": "PCTE"
 }
 
 def generar_respuesta(question,partido):
@@ -78,6 +79,7 @@ partido = st.selectbox("Elige un partido político ", (
     "Escaños en blanco (ESCAÑOS EN BLANCO)",
     "Frente Obrero (FO)",
     "Partido animalista con el medioamb. (PACMA)",
+    "Partido comunista de los trabajadores (PCTE)",
     "Partido Popular (PP)", 
     "Partido Socialista Obrero Español (PSOE)",
     "Por un mundo más justo (PUM+J)",
