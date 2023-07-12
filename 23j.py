@@ -84,7 +84,7 @@ partido = st.selectbox("Elige un partido político ", (
     "Sumar (SUMAR)",
     "Vox (VOX)"
 ))
-question = st.text_input("Introduce aquí tu pregunta", placeholder="Ej: ¿Qué medidas proponen para reducir el deficit público?")
+question = st.text_input("Introduce aquí tu pregunta", placeholder="Ej: ¿Qué medidas proponen para reducir el deficit público? ")
 if st.button("Preguntar a la IA", use_container_width=True, type="primary"):
     with st.spinner(text="Buscando información..."):
         respuesta = generar_respuesta(question, partido)
