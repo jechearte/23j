@@ -17,8 +17,8 @@ from dotenv import load_dotenv
 partidos = {
     "Partido Popular (PP)": "PP",
     "Partido Socialista Obrero Español (PSOE)": "PSOE-2",
-    "VOX (VOX)": "VOX-2",
-    "SUMAR (SUMAR)": "SUMAR",
+    "Vox (VOX)": "VOX-2",
+    "Sumar (SUMAR)": "SUMAR",
     "Partido animalista con el medioamb. (PACMA)":"PACMA",
     "Escaños en blanco (ESCAÑOS EN BLANCO)": "ESCANOS EN BLANCO",
     "Frente Obrero (FO)": "FO",
